@@ -16,7 +16,7 @@ body::after {
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.05;
+    opacity: 0.1;
     pointer-events: none;
     position: fixed;
     top: 0;
@@ -125,10 +125,10 @@ body::after {
     color: #0b23bf;
 }
 
-.main em {
-    font-style: normal;
-    color: #997C1D;
-}
+/* .main em { */
+/*     font-style: normal; */
+/*     color: #997C1D; */
+/* } */
 
 .long_list li {
     margin-bottom: 25px;
