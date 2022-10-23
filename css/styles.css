@@ -110,13 +110,15 @@ body::after {
 
 .main {
     line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .main img {
     width: 33%;
     shape-outside: rectangle();
     float: right;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 20px;
 }
 
