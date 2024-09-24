@@ -115,7 +115,7 @@ body::after {
 }
 
 .main img {
-    width: 33%;
+    width: 30%;
     shape-outside: rectangle();
     float: right;
     padding-left: 30px;

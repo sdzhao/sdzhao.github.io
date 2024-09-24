@@ -25,47 +25,36 @@
 	<div class="main">
       	  <img src="img/research.svg">
 	  
-	  I started out in the natural sciences. My undergraduate degree is in chemistry and physics, with a focus on synthetic organic chemistry. But I was interested in a lot of other subjects, and I realized that studying statistics in graduate school could let me explore all of them.
+	  
 
 	  <p>
-	    So now I am a statistician, and my research centers around on large-scale statistical inference with highly multiplexed genomic data, particularly as applied to molecular neuroscience.
+	    My statistical research centers around large-scale statistical inference with highly multiplexed genomic data, particularly as applied to neurogenomics.
 	  </p>
 
 	  
-	  <!-- <p> -->
-	  <!--   Before elaboratin, it might be useful to first fix a working definition of "statistics", given how rapidly the field is changing in today's data science era. My perspective, motivated by Lehmann and Nelder ([<a href="#lehmann">1</a>], [<a href="#nelder">2</a>]),  -->
+	  <p>
+	    Before elaborating, it might be useful to first fix a working definition of "statistics", given how rapidly the field is changing.
+	  </p>
 
-	  <!--   who wrote that successful data analysis requires "(i) a good description of the signal, (ii) a good description of the noise, which together comprise the model, and (iii) matching the model to the data". In more mathematical terms, I see statistics research as giving -->
+	  <p>
+	    My perspective is that statistics is the study of how quantitative data can give substantive understanding (about some phenomenon of interest). The central challenge is that data by itself cannot directly "enter the mind" [<a href="#fisher">1</a>]. To address this, statisticians engage in three types of activities:
+	    <ol>
+	      <li>introducing population-level quantitative constructs that are substantively meaningful [<a href="#nelder">2</a>],</li>
+	      <li>developing concepts and methods to infer those quantities from observed data, and</li>
+	      <li>understanding when and why those methods work.</li>
+	    </ol>
 	    
-	  <!--   some work does inference on population parameters -->
-
-	    
-	  <!-- </p> -->
-
-	  <!-- stat encompasses the who, porcess of getting general insiht from data. three compnents. 1 what quant costruct, 2 how to do it, 3 understand the method -->
-
-
-	  <!-- <p> -->
-	  <!--   To be more precise, my perspective,  -->
-	  <!--   <ol> -->
-	  <!--     <li>test</li> -->
-	  <!--   </ol> -->
-	  <!-- </p> -->
-	      
 	  <p>
-	    One main difficulty is that biological questions are explanatory in nature, asking how and why things are the way they are, but statistics is for the most part descriptive. I am interested in developing analysis strategies for genomic data that bridge the gap between description and explanation. I'm currently focused on <a href="publications.html">spatial transcriptomics and behavioral genomics</a>.
+	    My research spans these activities in the context of genomics.
+	    <ol>
+	      <li>I define new quantitative constructs useful for understanding different types of genomic data. I'm currently focused on spatial transcriptomics and behavioral genomics. For example, we recently studied <a href="https://www.nature.com/articles/s41467-024-49457-w">transcript colocalization for single molecule-resolution spatial transcriptomics data</a>.</li>
+	      <li>I develop new statistical methods to estimate and perform inference on these quantities. I mainly draw from <a href="publications.html">large-scale inference procedures</a> coming from high-dimensional statistics, multiple hypothesis testing, mediation analysis, and survival analysis methods.</li>
+	      <li>A hallmark of high-throughput genomics experiments is that they simultaneously profile a huge number of biological features, such as mutations or genes. I am interested in understanding the fundamental statistical principles underlying simultaneous inference. For example, we recently developed a new <a href="http://export.arxiv.org/abs/2205.00336">regression-based reformulation of empirical Bayes estimation</a>.</li>
+	    </ol>
 	  </p>
 	  
 	  <p>
-	    A hallmark of genomics research is that it asks a huge number of biological questions simultaneously, made possible by high-throughput technology. But more questions also leads to more inductive uncertainty. I am interested in understanding the fundamental statistical principles that make it possible to reduce this uncertainty. I'm currently studying <a href="publications.html">empirical Bayesian inference</a>.
-	  </p>
-
-	  <p>
-	    Finally, I am interested in developing new statistical inference procedures. My <a href="publications.html">other work</a> includes high-dimensional inference, multiple hypothesis testing, precision matrix estimation, and survival analysis methods.
-	  </p>
-	  
-	  <p>
-	    My research has been supported by:
+	    My work is/has been supported by:
 	    <ol class="long_list">
 	      <li>
 		Zhao (PI), Bonthuis (Co-I), Gritton (Co-I), Vlasov (Co-I).<br>
@@ -105,13 +94,15 @@
 	    </ol>
 	  </p>
 
-	  <!-- <hr> -->
-	  <!-- <p id="nelder"> -->
-	  <!--   1. Lehmann (1990). Model specification: the views of Fisher and Neyman, and late developments. <em>Statistical Science</em>, 5, 160&ndash;168. -->
-	  <!-- </p> -->
-	  <!-- <p id="nelder"> -->
-	  <!--   2. Nelder (1986). Statistics, science and technology. <em>Journal of the Royal Statistical Society: Series A</em>, 149, 109&ndash;121. -->
-	  <!-- </p> -->
+	  <hr>
+	  
+	  <p id="fisher">
+	    [1]. Fisher (1922). On the mathematical foundations of theoretical statistics. <em>Philosophical Transactions of the Royal Society A</em> 222, 592&ndash;604.
+	  </p>
+	  <p id="nelder">
+	    [2]. I think this activity lies at the heart of the emerging discipline of data science, as anticipated by Nelder: "I see statistics as giving a central place to the theory and practice of the <em>matching of theory to data</em>".<br>
+	    Nelder (1986). Statistics, science and technology. <em>Journal of the Royal Statistical Society: Series A</em> 149, 109&ndash;121.
+	  </p>
 	  
 	</div>
 	
