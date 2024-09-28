@@ -36,9 +36,9 @@ body::after {
     grid-area: top_gutter;
 }
 
-.top_gutter{
-    grid-area: bottom_gutter;
-}
+/* .top_gutter{ */
+/*     grid-area: bottom_gutter; */
+/* } */
 
 .navbar {
     grid-area: navbar;
@@ -99,8 +99,8 @@ body::after {
 .heading {
     font-family: "DM Serif Display";
     font-size: 35px;
-    line-height: 50px;
-    padding-bottom: 20px;
+    line-height: 40px;
+    padding-bottom: 25px;
 }
 
 .heading a {
