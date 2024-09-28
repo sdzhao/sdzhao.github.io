@@ -105,7 +105,8 @@ body::after {
 
 .heading a {
     text-decoration: none;
-    color: #0b23bf;
+    /* color: #0b23bf; */
+    color: #0b0dff;
 }
 
 .main {
@@ -122,9 +123,19 @@ body::after {
     padding-bottom: 20px;
 }
 
+.dave {
+    width: 30%;
+    shape-outside: circle();
+    border-radius: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
 .main a {
     text-decoration: none;
-    color: #0b23bf;
+    /* color: #0b23bf; */
+    color: #0044ff;
 }
 
 /* .main em { */
